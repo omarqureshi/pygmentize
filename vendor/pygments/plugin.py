@@ -36,6 +36,7 @@
     :license: BSD, see LICENSE for details.
 """
 import warnings
+import with_statement from __future__
 
 with warnings.catch_warnings():
     warnings.simplefilter("ignore")
